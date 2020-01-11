@@ -1,7 +1,6 @@
-import React from 'react';
-import './App.css';
 import axios from "axios";
 import StarWarsList from "./components/StarWarsList";
+import React, { useState, useEffect} from "react";
 
 
     function StarWars() {
@@ -14,9 +13,9 @@ import StarWarsList from "./components/StarWarsList";
           )
             .then(response => {
               Comp2(response.data);
-              console.log(respoonse.data);
+              console.log(response.data);
             })
-            .catch(eror =>{
+            .catch(error =>{
               console.log(error);
               });
         }, []);
