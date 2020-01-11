@@ -12,7 +12,7 @@ font-weight: bold;
 
 const StyledSection = styled.section`
 display: inline-block;
-padding: 3rem;
+padding: 10rem;
 background: gray;
 width: 100px;
 height: auto;
@@ -36,7 +36,7 @@ export function StarWarsList (props) {
     return (
         <StyledDiv className="App">
             <StyledSection>
-                <StyledHead className="characterName">{props.name}</StyledHead>
+                <StyledHead className="characterName">{props.charName}</StyledHead>
                 <StyledP>Height: {props.height}</StyledP>
                 <StyledP>{props.hair_color}</StyledP>
                 <StyledP>{props.gender}</StyledP>
