@@ -15,7 +15,7 @@ import React, { useState, useEffect} from "react";
               Comp2(response.data);
               console.log(response.data);
             })
-            .catch(error =>{
+            .catch(error => {
               console.log(error);
               });
         }, []);

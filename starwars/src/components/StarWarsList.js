@@ -49,3 +49,5 @@ export function CharacterListing(props) {
         </StyledDiv>
     );
 }
+
+export default StarWarsList;
