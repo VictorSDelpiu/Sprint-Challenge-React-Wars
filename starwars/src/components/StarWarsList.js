@@ -5,19 +5,19 @@ const StyledDiv = styled.div``;
 
 const StyledP = styled.p`
 opacity: 1
-color: white;
+color: black;
 font-weight: bold;
 `;
 
 
 const StyledSection = styled.section`
 display: inline-block;
-padding: 10rem;
-background: gray;
+padding: 12rem;
+background: lightblue;
 width: 100px;
 height: auto;
 margin-bottom: 20px;
-border: 2px dashed white;
+border: 2px dashed purple;
 `;
 
 
@@ -27,7 +27,7 @@ const StyledHead = styled.h2`
     text-decoration: underline;
 
     :hover {
-        color: white;
+        color: blue;
     }
 `;
 
