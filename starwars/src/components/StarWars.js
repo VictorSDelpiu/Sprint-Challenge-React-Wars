@@ -8,7 +8,7 @@ import StarWarsList from "./StarWarsList";
       const [Comp1, Comp2] = useState([]);
 
       useEffect(()=>{
-        axios.get("https://swapi.co/api/people/1/")
+        axios.get("https://swapi.co/api/people")
             .then(res => {
               Comp2(res.data.results);
               console.log("Not fetching data");
