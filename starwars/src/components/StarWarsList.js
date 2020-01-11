@@ -36,10 +36,10 @@ export function StarWarsList (props) {
     return (
         <StyledDiv className="App">
             <StyledSection>
-                <StyledHead className="characterName">{props.person.name}</StyledHead>
-                <StyledP>Height: {props.person.height}</StyledP>
-                <StyledP>{props.person.hair_color}</StyledP>
-                <StyledP>{props.person.gender}</StyledP>
+                <StyledHead className="characterName">{props.name}</StyledHead>
+                <StyledP>Height: {props.height}</StyledP>
+                <StyledP>{props.hair_color}</StyledP>
+                <StyledP>{props.gender}</StyledP>
             </StyledSection>
         </StyledDiv>
     )

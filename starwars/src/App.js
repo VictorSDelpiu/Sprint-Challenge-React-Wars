@@ -13,6 +13,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+      <StarWars />
     </div>
   );
 }
