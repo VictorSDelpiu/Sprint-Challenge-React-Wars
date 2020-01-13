@@ -25,15 +25,23 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+It solves creatr
+React JS is a JavaScript library that is used to make building complex user interfaces an easier task. React allows you to work with the virtual DOM instead of always interacting with the actual DOM. This allows your code to be more efficient and have quicker load times. In React for every DOM Object there is a corresponding Virtual DOM object. Manipulating the actual DOM is very slow but manipulating the virtual DOM is much faster due to nothing actually getting drawn on the screen. Each time a new virtual DOM is rendered React know which components have changed and will update only those components to the actual DOM.
+
 
 - [ ] What does it mean to _think_ in react?
+hinking in React means to think about apps as you build them.
 
 - [ ] Describe state.
+useState hook to set the state to an empty array. Then in the axios call you use setData to set the state to the array you are passing in from the api. At the end of the useEffect hook call you also place another empty array so that the api call is only run again if the state changes.
 
 - [ ] Describe props.
+Props are used to pass data from a parent component to a child component
+
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
-
+ A function is said to have side effect if it trys to modify anything outside its body.
+ 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
